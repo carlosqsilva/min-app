@@ -1,0 +1,30 @@
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+}
+
+main {
+  width: 100vw;
+  height: 100vh;
+}
+
+header {
+  width: 100%;
+  padding: 40px 20px;
+  background: #2b313c;
+  color: #fff;
+}
+
+.logo {
+  width: 65px;
+  transition: transform 200ms;
+}
+
+.logo:hover {
+  transform: rotate(360deg);
+}

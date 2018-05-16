@@ -1,0 +1,23 @@
+{
+  "presets": [
+    [
+      "env",
+      {
+        "debug": true,
+        "modules": false,
+        "useBuiltins": false,
+        "targets": {
+          "browsers": ["chrome >= 60", "firefox >= 57"]
+        }
+      }
+    ]
+  ],
+  "plugins": [
+    [
+      "transform-react-jsx",
+      {
+        "pragma": "h"
+      }
+    ]
+  ]
+}
